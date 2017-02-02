@@ -1,0 +1,455 @@
+
+@import url(https://fonts.googleapis.com/css?family=Kanit:400,300,500,600,100,200&subset=thai,latin);
+
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* CSS Reset */
+
+body {
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+/* Font weight reminder : 100,200,300,400,500,600 */
+
+body{
+width: 100%;
+color: #fff;
+font-family: 'Kanit', sans-serif;
+background-color: #1e1e1e;
+  -webkit-font-smoothing:antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, p {
+  color: #fff;
+  font-weight: 300;
+  margin: 0px;
+}
+
+header {
+  display: block;
+  height: 260px;
+  padding: 50px 80px 10px 80px;
+}
+
+header .know_are_logo {
+  display: inline-block;
+  width: 130px;
+  height: 200px;
+  background-image: url(../img/know_are_big.png);
+  background-size: 130px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+header .hero_text {
+  display: inline-block;
+  margin-left: 40px;
+  width: 500px;
+  height: 200px;
+}
+
+
+header .hero_text h1 {
+  position: absolute;
+  margin-top: 47px;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+header .hero_contact {
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+header .hero_contact p {
+  font-size: 20px;
+}
+
+header .hero_contact p span:first-child {
+  font-size: 30px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+header .hero_contact p span {
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+header .hero_nav {
+  display: inline-block;
+  position: absolute;
+  right: 80px;
+  margin-top: 30px;
+  text-align: right;
+}
+
+header .hero_nav a{
+  display: block;
+  color: #D6D6D6;
+  font-weight: 200;
+  font-size: 35px;
+  line-height: 39px;
+  text-transform:uppercase;
+  padding-right: 10px;
+  border-right: 5px solid;
+  border-color: #1e1e1e;
+    transition: .1s ease-in
+}
+
+header .hero_nav a:hover{
+  border-right: 5px solid;
+  border-color:#fff;
+  color: #fff;
+  transition: .1s ease-in
+}
+
+header .hero_nav a.active{
+  color:#fff;
+  font-weight: 300;
+  border-right: 5px solid;
+  border-color:#E35627;
+}
+
+/*  Slider */
+
+.menu_wrapper {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  min-height: 500px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+
+.sub_menu_wrapper {
+  display: inline-block;
+  min-height: 500px;
+  background-color: #3B3B3B;
+  width: 30%;
+  transition: .1s ease;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.sub_menu_wrapper:hover {
+  transform: scale(1.05);
+  transition: .1s ease;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.53);
+}
+
+.sub_menu_wrapper .menu_logo {
+  display: inline-block;
+  margin-top: 200px;
+  width: 140px;
+  height: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.dream_catcher_junior {
+  background-image: url(../img/dcjr.png)!important;
+  background-size: 180px!important;
+}
+
+.dream_catcher_6 {
+  background-image: url(../img/dc6.png)!important;
+  background-size: 180px!important;
+  width: 165px!important;
+}
+
+.dream_catcher_nav {
+  background-image: url(../img/dcnav.png)!important;
+  background-size: 200px!important;
+  width: 150px!important;
+}
+
+.dream_catcher_nav h1 {
+  font-size: 25px;
+}
+
+.more_info {
+  margin-top: 40px;
+  opacity: 0.8;
+}
+
+.wallpaper_dream_catcher_6 {
+  background-image: url(../img/dc6_hero.jpg);
+  background-size: cover;
+}
+
+.wallpaper_dream_catcher_junior {
+  background-image: url(../img/dcjr_hero.jpg);
+  background-size: cover;
+}
+
+.wallpaper_dream_catcher_nav {
+  background-image: url(../img/dcnav_hero.jpg);
+  background-size: cover;
+}
+
+/* Footer */
+
+footer {
+  background-image: url(../img/footer_bg.jpg);
+  bottom:0;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 50px 200px 10px 200px;
+  text-align: center;
+}
+
+footer .sponsors_badge {
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  transition: .1s ease;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+}
+
+footer .sponsors_badge img{
+  display: inline-block;
+  text-align: center;
+  height: 70px;
+}
+
+footer .sponsors_badge:hover {
+  transform: scale(1.05);
+  transition: .1s ease;
+}
+
+footer .sponsors_wrapper h1 {
+  margin: 80px 0px 10px 0px;
+  font-size: 21px;
+  opacity: 0.9;
+}
+
+footer p.target {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+
+footer p.credit {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  position: relative;
+}
+
+footer .announcing {
+  padding:100px 0px 100px 0px;
+
+}
+
+
+/*  Contact */
+
+.contact {
+  display: block;
+  text-align: center;
+  padding: 100px 10px 100px 10px;
+  background-image: url(../img/contact_hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contact h1 {
+  font-size: 25px;
+}
+
+.contact h2 {
+  font-size: 23px;
+}
+
+.contact .contact_card_wrapper {
+  display: block;
+  margin: 50px 0px 100px 0px;
+
+}
+
+
+ .contact_card {
+  display: inline-block;
+  height: 350px;
+  width: 300px;
+  background-color: #0B0B0B;
+  margin: 0px 15px 0px 15px;
+  transition: .1s ease-in;
+  border-radius: 4px;
+}
+
+.contact_card .iphone {
+  display: block;
+  background-color: #141414;
+  height: 200px;
+  text-align: center;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.calling {
+  background-image: url(../img/iphone_calling.png);
+}
+
+.mapping {
+  background-image: url(../img/iphone_mapping.png);
+}
+
+.chatting {
+  background-image: url(../img/iphone_chatting.png);
+}
+
+.contact_card h3{
+   font-size: 24px;
+   margin-top: 10px;
+   font-weight: 300;
+}
+
+.contact_card p{
+  font-weight: 200;
+   font-size: 16px;
+   padding: 10px 30px 10px 20px;
+   text-align: center;
+   opacity: 0.8;
+}
+
+.contact_card:hover {
+ transform: scale(1.05);
+transition: .1s ease-in;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.33);
+
+}
+
+.facebook {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+
+/*  Responsive */
+
+
+@media screen and (max-width:1020px) {
+
+  header {
+    height: 200px;
+    padding: 0px 10px 10px 10px;
+    background-color: #1E1E1E;
+  }
+
+.know_are_logo {
+  width: 100px!important;
+  height: 120px!important;
+  background-size: 80px!important;
+}
+
+header .hero_text {
+  display: none;
+}
+
+header .hero_contact {
+  margin-left: 11px;
+  margin-top: 10px;
+  max-width: 140px;
+}
+
+header .hero_contact p {
+  font-size: 15px;
+}
+
+.ion-social-facebook, .ion-iphone {
+  display: none;
+}
+
+header .hero_nav {
+  right: 10px;
+  margin-top: 30px;
+}
+
+header .hero_nav a{
+  display: block;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+  .menu_wrapper {
+    margin-top: 10px;
+  }
+
+  .sub_menu_wrapper {
+    display: block;
+    width: 95%;
+    min-height: 350px;
+    text-align: center;
+  }
+
+  .sub_menu_wrapper .menu_logo {
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    background-position: center;
+  }
+
+  footer {
+    background-position: bottom;
+    padding: 10px 10px 10px 10px;
+    background-size: 200%;
+    text-align: center;
+  }
+
+  footer p.target {
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+
+  footer p.credit {
+    margin-top: 230px;
+    font-size: 11px!important;
+  }
+
+  .contact .contact_card_wrapper {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact_card {
+  display: inline-block!important;
+  margin-top: 30px;
+ }
+
+ .contact h1 {
+   font-size: 24px;
+ }
+
+ .contact h2 {
+   font-size: 15px;
+ }
+
+ .facebook {
+   display: none;
+ }
+
+ .hide-on-mobile {
+   display: none!important;
+ }
+
+}
