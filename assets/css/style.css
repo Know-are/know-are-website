@@ -36,6 +36,7 @@ header {
   display: block;
   height: 260px;
   padding: 50px 80px 10px 80px;
+  transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
 }
 
 header .know_are_logo {
@@ -102,14 +103,14 @@ header .hero_nav a{
   padding-right: 10px;
   border-right: 5px solid;
   border-color: #1e1e1e;
-    transition: .1s ease-in
+    transition: .1s ease-in;
 }
 
 header .hero_nav a:hover{
   border-right: 5px solid;
   border-color:#fff;
   color: #fff;
-  transition: .1s ease-in
+  transition: .1s ease-in;
 }
 
 header .hero_nav a.active{
@@ -118,6 +119,7 @@ header .hero_nav a.active{
   border-right: 5px solid;
   border-color:#E35627;
 }
+
 
 /*  Slider */
 
@@ -136,14 +138,14 @@ header .hero_nav a.active{
   min-height: 500px;
   background-color: #3B3B3B;
   width: 30%;
-  transition: .1s ease;
+  transition: .1s cubic-bezier(0.23, 1, 0.32, 1);
   text-align: right;
   padding-right: 30px;
 }
 
 .sub_menu_wrapper:hover {
   transform: scale(1.05);
-  transition: .1s ease;
+  transition: .1s cubic-bezier(0.23, 1, 0.32, 1);
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.53);
 }
 
@@ -350,10 +352,27 @@ transition: .1s ease-in;
 @media screen and (max-width:1020px) {
 
   header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
     height: 200px;
     padding: 0px 10px 10px 10px;
     background-color: #1E1E1E;
   }
+
+  .nav-up {
+  transform: translateY(-210px);
+  transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  }
+
+  .nav-down {
+  transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  }
+
+.mobile-menu-padding {
+  display: block;
+  height: 200px;
+}
 
 .know_are_logo {
   width: 100px!important;
@@ -380,7 +399,7 @@ header .hero_contact p {
 }
 
 header .hero_nav {
-  right: 10px;
+  right: 30px;
   margin-top: 30px;
 }
 
