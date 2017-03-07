@@ -1,0 +1,7 @@
+# Ignore wherever PHP 
+*.php 
+
+# Ignore all Wordpress within Newsroom folder 
+* /newsroom/ 
+
+
