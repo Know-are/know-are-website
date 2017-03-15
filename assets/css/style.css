@@ -247,6 +247,7 @@ footer p.target {
 
 
 footer p.credit {
+  font-size: 18px;
   text-align: center;
   margin-bottom: 20px;
   margin-top: 100px;
@@ -587,6 +588,10 @@ header .hero_nav a{
   footer p.credit {
     margin-top: 230px;
     font-size: 11px!important;
+  }
+
+    a.credit-link:hover{
+    text-decoration: underline!important;
   }
 
   .contact .contact_card_wrapper {
