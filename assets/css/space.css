@@ -1,0 +1,42 @@
+footer {
+  background-image: none;
+}
+
+header {
+  background-image: url(../img/space/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 140vh;
+}
+
+.hero_space_section {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero_space_logo {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/space/hero_logo.png);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero_space_section .icon_feature {
+  display: inline-block;
+  width: 100px;
+  margin-top: 50px;
+}
+
+.hero_space_section .icon_feature .icon_feature_span {
+  font-size: 40px;
+}
+
+.hero_space_section .icon_feature h4 {
+  margin-top: -10px;
+  font-size: 20px;
+}
+้
