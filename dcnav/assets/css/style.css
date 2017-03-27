@@ -116,14 +116,21 @@ h4{
 }
 
 .hero_section{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 130vh;
   box-sizing: border-box;
-  background:#1c1d1e url('../img/hero_background.jpg') center bottom no-repeat;
+  background:#1c1d1e url('../img/hero_background.gif') center bottom no-repeat;
   background-size: cover;
   color: #fff;
   position: relative;
-  padding: 200px 0 200px 0;
+  padding: 0px 0 200px 0;
+}
+
+.hero_section > .overlay {
+  background-color: rgba(28,29,30,0.7);
+  width: 100%;
+  height:100%;
+  position:auto;
 }
 
 .hero_section > .centered > h1{
@@ -723,11 +730,17 @@ footer h3{
   font-size: 13px;
 }
 
+.hero_section .overlay {
+  height: 100vh;
+  width:auto;
+  position: auto;
+}
 
 .hero_section{
+  height:100vh;
   width: 100%;
   background:#1c1d1e url('../img/hero_background.jpg')  cover no-repeat;
-  padding: 200px 0 200px 0;
+  padding: 0 0 0 0;
   background-position: center bottom;
 }
 
@@ -736,7 +749,7 @@ footer h3{
 }
 
 .hero_logo {
-  width: 300px;
+  width: 250px!important;
 }
 
 .hero_wrapper h1 {
