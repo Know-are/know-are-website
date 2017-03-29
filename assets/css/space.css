@@ -10,10 +10,11 @@ header {
 }
 
 .hero_space_section {
-  width: 100%;
   display: block;
   text-align: center;
   margin-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .hero_space_logo {
@@ -39,4 +40,85 @@ header {
   margin-top: -10px;
   font-size: 20px;
 }
-้
+
+
+section.room-box {
+  display: block;
+  margin-bottom: 120px;
+}
+
+.room-box .room-info {
+  min-height: 400px;
+  display: inline-block;
+  width: 30%;
+}
+
+.room-box .room-pictures {
+  vertical-align: top;
+  min-height: 400px;
+  display: inline-block;
+  width: 68%;
+  background-color: green;
+}
+
+.room-text {
+  padding-left: 90px;
+  width: 100%;
+}
+
+.room-text h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.room-text h2 {
+  font-size: 24px;
+}
+
+.room-text h2 {
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.room-text h2 .room-info-topic {
+  font-weight: 400;
+}
+
+.room-text p {
+  opacity: 0.8;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+
+/*  Responsive */
+
+@media screen and (max-width:900px) {
+
+  .hero_space_logo {
+    width: 100%;
+    height: 200px;
+    background-size: 200px;
+  }
+
+  .hero_space_section h3{
+    font-size: 15px;
+  }
+
+  .hero_space_section .icon_feature {
+    display: inline-block;
+    width: 60px;
+    margin-top: 50px;
+  }
+
+  .hero_space_section .icon_feature .icon_feature_span {
+    font-size: 20px;
+  }
+
+  .hero_space_section .icon_feature h4 {
+    margin-top: -5px;
+    font-size: 17px;
+  }
+
+
+}
