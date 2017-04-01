@@ -138,6 +138,16 @@ a.info-button {
   margin-left: 20px;
 }
 
+.detail-box h1 {
+  text-align: center;
+}
+
+.detail-box p {
+  margin-top: 10px;
+  opacity: 0.8;
+  text-align: center;
+}
+
 /*  Responsive */
 
 @media screen and (max-width:900px) {
