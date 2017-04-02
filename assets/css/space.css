@@ -148,6 +148,55 @@ a.info-button {
   text-align: center;
 }
 
+.asset-box h1 {
+  text-align: center;
+}
+
+.asset-box p {
+  margin-top: 10px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.asset-box-center {
+  text-align: center;
+  padding-left: 10%;
+  padding-right:10%;
+}
+
+
+
+
+  .asset-box .icon_feature {
+    display: inline-block;
+    width: 150px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .asset-box .icon_feature h4 {
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .asset-box .icon_feature h4 .pricing {
+    font-weight: 200;
+    opacity: 0.8;
+    font-size: 18px;
+  }
+
+
+  .asset-box .icon_feature .icon_feature_span {
+    font-size: 32px!important;
+  }
+
+
+
+
+section.asset, section.detail-box{
+  margin-top: 30px;
+}
+
 /*  Responsive */
 
 @media screen and (max-width:900px) {
