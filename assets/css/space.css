@@ -269,4 +269,9 @@ section.asset, section.detail-box{
     visibility: hidden;
   }
 
+  .asset-box-center {
+    padding-left: 4%;
+    padding-right:4%;
+  }
+
 }
